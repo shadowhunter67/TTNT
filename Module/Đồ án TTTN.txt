@@ -1,0 +1,31 @@
+Thiết kế module (tạm thời hiện thị lên màn hình điện tử tương ứng)
+* Đọc tình trạng sensor 
++ Đọc giá trị của sensor
++ Đọc giá trị của Vin (nguồn vào)
+* Hiện thị xung 
+* Kiểm tra dòng điện 
++ Đọc giá trị áp
++ Đọc giá trị dòng
+
+Phần cứng:
+Arduino R3
+IC ASC712
+Board và sensor test
+Dây đo
+1 lcd Nokia5110 hoặc 1 lcd ST7565 homephone (hiện thị xung và giá trị)
+Module cảm biến vật cản hồng ngoại LM393(5-10cm)
+Phần mềm:
+Arduino IDE
+Code:
+C
+
+đường dẫn arduino: C:\ProgramData\Labcenter Electronics\Proteus 8 Professional\LIBRARY
+https://www.youtube.com/watch?v=KD_IBIyyrVc
+Vẽ mạch:
+https://blog.mecsu.vn/vi-dieu-khien-atmega2560/
+http://arduino.vn/bai-viet/542-gioi-thieu-arduino-mega2560
+https://nshopvn.com/blog/cam-bien-vat-can-hong-ngoai-hoat-dong-nhu-the-nao-che-tao-bo-do-toc-do-dong-co-su-dung-cam-bien-vat-can-hong-ngoai/
+https://arduinokit.vn/giao-tiep-cam-bien-dien-ap-voltage-sensor-voi-arduino/
+https://linhkientcp.vn/module-acs712-30a-pr344.html
+
+Khoảng cách giữa 2 chân là 2mm: đều là đâu đực
